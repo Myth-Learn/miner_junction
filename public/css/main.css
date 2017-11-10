@@ -1,0 +1,204 @@
+html, body { position: relative; }
+a {
+	-webkit-transition: all 250ms ease-in-out;
+	  -moz-transition: all 250ms ease-in-out;
+	    -ms-transition: all 250ms ease-in-out;
+	      -o-transition: all 250ms ease-in-out;
+	        transition: all 250ms ease-in-out; }
+a:hover, a:active, a:focus {
+	text-decoration: none; }
+a:focus {
+	border: none; } 
+a:focus, input:focus, select:focus, textarea:focus { outline: none !important; }
+
+a {
+	color: #ffc400; }
+a:hover {
+	color: #444;
+	cursor: pointer; }
+		
+ul {
+	margin-left: 1.5em;
+	list-style-type: disc; }
+ol {
+	margin-left: 1.5em; }
+ul li {
+	margin-left: .85em;
+	margin: 4px 0; }
+ul ul {
+	list-style-type: square; }
+ul ul ul {
+	list-style-type: circle; }
+ol {
+	list-style-position: outside;
+	list-style-type: decimal;
+}
+dt {
+	margin-top: .8em;
+	margin-bottom: .4em;
+	font-weight: bold; }
+ol ol, ul ol {
+	margin-left: 2.5em; }
+ul ol, ol ul, ol ol, ul ul {
+	margin-bottom: 0; }
+	h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	margin-top: 0; 
+	margin-bottom: 10px;font-family: 'Oswald', sans-serif; }
+h2 { 
+	font-weight: 300; }
+h3, h4, h5 { 
+	font-weight: 900;color: #fff }
+p.wt_google_font {
+	font-weight: 300;
+	font-size: 18px;
+	margin-bottom: 30px !important; }
+.wrapper h1 {
+	font-size: 80px;
+	color: #fff
+}
+.wrapper p {
+	color: #fff;
+	font-size: 22px;
+	position: relative;
+	top: -30px;
+}
+img.logo {
+	width: 120px;
+	margin-bottom: 35px;
+	margin-top: -80px;
+}
+input[type="text"],input[type="email"] {height: 44px;margin: 25px 0 !important}
+.btn-theme {
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 10px;
+	padding: 9px 18px;
+	text-transform: uppercase;
+}
+.btn-theme:hover {
+	background-color: #d9a701;
+	color: #fff !important;
+}
+.btn-theme {
+	background-color: #ffc400;
+	color: #333 !important;
+	font-size: 14px;
+	line-height: 1.42857143;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 20px;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.btn {
+	font-size: 18px;
+	padding: 8px 16px;
+	color: #fff !important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}  
+p .regs-btn input[type="submit"] {
+	font-size: 14px;
+	font-weight: 700;
+	padding: 10px 20px;
+	background-color: #ffc400;
+	border-color: #357ebd;
+	background-image: none;
+	border: 1px solid transparent;
+	vertical-align: baseline;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+#section_home {
+	padding: 126px 0 150px 0;
+	background-position:95% 70% !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: url(../images/7123.jpg);
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+p .regs-btn input[type="submit"] {
+	width: auto;
+	float: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #555
+}
+p .regs-btn input[type="submit"]:hover, .regs-btn input[type="submit"]:hover {
+	color: #fff;
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+.wt_pattern_overlay {
+	background-image: url('../images/overlay.png');
+	background-repeat: repeat;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.form-bx-wrapper {
+	text-align: center;
+	background-color: rgba(20, 20,20, 0.65);
+	border: 1px solid #333;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 30px 25px 40px;
+	margin: 0 40px;
+	color: #fff;
+}
+.sle-txt {
+	font-size: 217px;
+	position: relative;
+	top: -26px;
+}
+@media screen and (max-width: 767px) {
+    .form-bx-wrapper{margin: 0;}
+    body{text-align: center;}
+    #section_home {
+	padding: 126px 0 150px 0;
+	background-position:95% 70% !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #999;
+	background-image: none;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+}
+@media screen and (max-width: 438px) {
+.sle-txt {
+	font-size: 140px;
+	position: relative;
+	top: -5px;
+}
+.wrapper h1 {
+	font-size: 51px;
+	color: #fff;
+}
+}
+.wrapper p {
+	color: #fff;
+	font-size: 18px;
+	position: relative;
+	top: -3px;
+}
