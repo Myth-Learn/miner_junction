@@ -1,6 +1,6 @@
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -249,7 +249,6 @@ th {
     border: 1px solid #000;
   }
   .table {
-
     border-collapse: collapse !important;
   }
   .table td,
@@ -264,11 +263,9 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('../font-faces/_glyphicons/glyphicons-halflings-regular.eot');
-  src: url('../font-faces/_glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../font-faces/_glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../font-faces/_glyphicons/fonts-faces/glyphicons-halflings-regular.ttf') format('truetype'), url('../font-faces/_glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
-
-/*
 .glyphicon {
   position: relative;
   top: 1px;
@@ -281,49 +278,6 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-*/
-
-/* ---- Glyphicon Styles ---------------------------
-   Author: WhoaThemes - http://whoathemes.net
-   ------------------------------------------------- */
-   
-[class^="glyphicon-"]:before, [class*=" glyphicon-"]:before {
-  font-family: "Glyphicons Halflings";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
- 
-  display: inline-block;
-  
-  position: relative;
-  top: 1px;
-  
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
- 
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-     
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
- 
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
- 
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-}
-
-/* ---- End Glyphicon Styles -----------------------
-   Author: WhoaThemes - http://whoathemes.net
-   ------------------------------------------------- */
-   
 .glyphicon-asterisk:before {
   content: "\002a";
 }
@@ -1152,7 +1106,6 @@ a:focus {
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -2583,7 +2536,6 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3075,7 +3027,6 @@ select[multiple].input-lg {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -6197,7 +6148,6 @@ button.close {
   margin-left: -10px;
 }
 .popover-title {
-
   padding: 8px 14px;
   margin: 0;
   font-size: 14px;
@@ -6804,3 +6754,4 @@ button.close {
     display: none !important;
   }
 }
+/*# sourceMappingURL=bootstrap.css.map */
